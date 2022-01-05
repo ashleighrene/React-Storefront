@@ -1,6 +1,6 @@
 ## Project Description
 
-I will be building a website (using HTML, CSS and Javascript - React) for am online marketplace.
+I will be building a website (using HTML, CSS and Javascript - React) for an online marketplace.
 
 For this project, the Products page will use Routes and direct the user to a store where items will display (from API fetch request).
 
