@@ -1,0 +1,15 @@
+.SalesNavMain {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 20px;
+}
+
+h1 {
+}
+
+.SalesNavMain li {
+	font-size: 20px;
+	margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+/* Flex Container 1 */
+.wrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Flex Container 2 */
+.mainHeader {
+	flex: 0.1 1 0;
+}
+
+/* Flex Container 3 */
+main {
+	display: flex;
+	flex-direction: row;
+	flex: 0.6 1 0;
+}
+
+.heroImageContainer {
+	width: 60%;
+	text-align: center;
+}
+
+.introTextContainer {
+	width: 40%;
+	text-align: center;
+}
+
+.reviewCarouselContainer {
+	flex: 0.2 1 0;
+}
+
+.mainFooter {
+	flex: 0.1 1 0;
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 20px -10px 20px;
+}
+
+.newsletter {
+}
+.copyright {
+}
