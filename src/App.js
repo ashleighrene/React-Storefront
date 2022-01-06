@@ -1,26 +1,24 @@
 import './App.css';
-import ReviewCarousel from './components/ReviewCarousel/ReviewCarousel';
+import { Routes, Route, Link } from 'react-router-dom';
+
+//Components
+import Footer from './components/Footer/Footer';
+import Home from './components/Home/Home';
+import ProductsPage from './components/ProductsPage/ProductsPage';
 import SalesNav from './components/SalesNav/SalesNav';
 
 function App() {
 	return (
-		<div className='wrapper'>
-			<header className='mainHeader'>
-				<SalesNav />
-			</header>
+		<div className='all'>
+			<SalesNav />
 			<main>
-				<div className='heroImageContainer'>Hero Image</div>
-				<div className='introTextContainer'>Intro Text</div>
+				{/* <Home /> */}
+				<Routes>
+					<Route path='/home' element={<Home />}></Route>
+					<Route path='/products' element={<ProductsPage />}></Route>
+				</Routes>
 			</main>
-			<div className='reviewCarouselContainer'>
-				<ReviewCarousel />
-			</div>
-			<footer className='mainFooter'>
-				
-					<span className='newsLetter'>Newsletter</span>
-					<span className='copyright'>Copyright Information</span>
-				
-			</footer>
+			<Footer />
 		</div>
 	);
 }

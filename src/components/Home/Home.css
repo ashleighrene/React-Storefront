@@ -1,0 +1,52 @@
+.heroImageContainer {
+	height: 100%;
+}
+
+.heroImageContainer img {
+	border-radius: 30px;
+	margin: 30px;
+	height: 90%;
+	width: 100%;
+}
+
+h2 {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 400;
+	font-size: 20px;
+	height: 10%;
+	top: 90px;
+	left: 0px;
+	margin: 10px;
+}
+
+.introTextContainer {
+	width: 30%;
+}
+
+.introTextContainer p {
+	margin-top: 50px;
+	margin-left: 50px;
+	line-height: 2;
+}
+
+/* Flex Container 2 */
+main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	height: 70%;
+}
+
+.reviewCarouselContainer {
+	height: 80%;
+}
+
+/* Flex Container 1 */
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	margin: 20px;
+	width: 100%;
+	height: 100%;
+}

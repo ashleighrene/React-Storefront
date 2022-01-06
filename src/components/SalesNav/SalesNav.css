@@ -4,12 +4,36 @@
 	justify-content: space-around;
 	padding: 10px;
 	margin: 20px;
+	height: 5%;
 }
 
-h1 {
+a {
+	text-decoration: none;
+	color: black;
 }
 
-.SalesNavMain li {
+a:hover {
+	text-decoration: underline;
+}
+
+.SalesNavMainHome {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.SalesMainNav__about,
+.SalesMainNav__products,
+.SalesMainNav__featured,
+.SalesMainNav__contact {
 	font-size: 20px;
-	margin-top: 10px;
+	margin-top: 5px;
+}
+
+.SearchIcon {
+	width: 2rem;
+}
+
+.CartIcon {
+	width: 2rem;
 }
