@@ -18,11 +18,7 @@ function Home(props) {
 				<div className='introTextContainer'>
 					<p>
 						React Storefront is a one-stop shop designed to provide access to
-						handmade goods of the highest quality. Our products page has been
-						designed with you, and our artisans in mind. Each item will display
-						with all the information you need to make your next purchase easy
-						and fullfilling. Know that when you shop with React Storefront,
-						you're supporting artists in your community do what they love.
+						handmade goods of the highest quality.
 					</p>
 				</div>
 			</main>

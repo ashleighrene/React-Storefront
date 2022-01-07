@@ -1,5 +1,6 @@
 import './ProductsPage.css';
 import React, { useState, useEffect } from 'react';
+import Products from './Products';
 
 function ProductsPage(props) {
 	const [product, setProduct] = useState([]);
@@ -18,11 +19,9 @@ function ProductsPage(props) {
 	}
 	return (
 		<section className='productsGallery'>
-			{product.map((products) => (
-				<div key={products.id}>
-					<img src={products.img} alt={products.title} />
-				</div>
-			))}
+			{product.map((product) => {
+				return <Products product={product} key={product.id} />;
+			})}
 		</section>
 	);
 }
