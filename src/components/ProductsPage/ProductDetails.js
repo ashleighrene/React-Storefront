@@ -15,14 +15,10 @@ function ProductDetails(props) {
 	});
 	return (
 		<div className='detailsContainer'>
-			<img
-				className='detailsImage'
-				src={props.products.image}
-				alt={props.products.title}
-			/>
-			<h2 className='detailsTitle'>{props.product.title}</h2>
-			<h3 className='detailsDescription'>{props.products.description}</h3>
-			<h4 className='detailsPrice'>{props.products.price}</h4>
+			<img src={products.image} alt={products.title} />
+			<h2 className='detailsTitle'>{products.title}</h2>
+			<h3 className='detailsDescription'>{products.description}</h3>
+			<h4 className='detailsPrice'>{products.price}</h4>
 			<button className='detailsButton' type='submit'>
 				Add to Cart
 			</button>

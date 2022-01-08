@@ -1,11 +1,10 @@
 import './SalesNav.css';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
 // import search from './search_black_24dp.svg';
 // import cart from './shopping_cart_black_24dp.svg';
 
 //Components
-import ProductsPage from '../ProductsPage/ProductsPage';
 
 function SalesNav(props) {
 	return (
