@@ -11,7 +11,7 @@ https://dev.to/yadprab/create-card-components-using-css-grids-39a2
 	grid-auto-rows: minmax(250px, auto);
 	grid-gap: 1rem;
 	margin: 0 auto;
-	max-width: 1400px;
+	max-width: 1200px;
 	max-height: 1400px;
 	padding: 1rem;
 	overflow: scroll;
