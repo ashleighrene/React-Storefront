@@ -17,7 +17,7 @@ function Products(props) {
 	}, []);
 
 	if (!product.length) {
-		return null;
+		return <p className='loadingText'>Products Loading ...</p>;
 	}
 
 	return (
@@ -26,9 +26,11 @@ function Products(props) {
 				return (
 					<Link to={`details/${product.id}`} product={product} key={product.id}>
 						<div className='productCard'>
-							<div className='productCard__img'>
-								<img src={product.image} alt={product.title} />
-							</div>
+							<img
+								className='productCard__img'
+								src={product.image}
+								alt={product.title}
+							/>
 						</div>
 					</Link>
 				);

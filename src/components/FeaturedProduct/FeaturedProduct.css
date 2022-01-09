@@ -1,0 +1,11 @@
+.FeaturedMain {
+	border-top: 1px solid gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.FeaturedText {
+	font-size: 28px;
+	line-height: 1.5;
+}

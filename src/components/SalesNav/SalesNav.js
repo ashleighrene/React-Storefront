@@ -1,8 +1,8 @@
 import './SalesNav.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
-// import search from './search_black_24dp.svg';
-// import cart from './shopping_cart_black_24dp.svg';
+import search from './search_black_24dp.svg';
+import cart from './shopping_cart_black_24dp.svg';
 
 //Components
 
@@ -29,12 +29,12 @@ function SalesNav(props) {
 				Contact
 			</Link>
 
-			{/* <li>
+			<li>
 				<img className='SearchIcon' src={search} alt='Search Icon' />
 			</li>
 			<li>
 				<img className='CartIcon' src={cart} alt='Shopping Cart Icon' />
-			</li> */}
+			</li>
 		</nav>
 	);
 }

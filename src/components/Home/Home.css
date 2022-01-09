@@ -1,27 +1,29 @@
-.homeMain img {
-	border-radius: 30px;
-	/* margin: 30px;
-	height: 100%;
-	width: 100%; */
-}
-
 /* Flex Container 2 */
 .homeMain {
-	border: 3px solid blue;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
+	border-top: 1px solid gray;
+	height: 100vh;
+	width: 100vw;
+	overflow: hidden;
+	background: black;
+}
+
+.homeMain img {
 	height: 100%;
+	width: 100%;
+	opacity: 0.6;
 }
 
-.introTextContainer {
-	/* width: 30%; */
-}
-
-.introTextContainer p {
-	/* margin-top: 50px;
-	margin-left: 50px;
-	line-height: 2; */
+.introTextContainer h2 {
+	font-family: 'Libre Baskerville', serif;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	font-size: 50px;
+	color: rgb(240, 239, 239);
+	text-shadow: 1px 1px black;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
 }
 
 .reviewCarouselContainer {

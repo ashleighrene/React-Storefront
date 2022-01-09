@@ -1,0 +1,14 @@
+.AboutMain {
+	border-top: 1px solid gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	padding: 10px;
+	height: 100vh;
+}
+.AboutText {
+	font-size: 22px;
+	line-height: 1.5;
+	width: 60%;
+}
