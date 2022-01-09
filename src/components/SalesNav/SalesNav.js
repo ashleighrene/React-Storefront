@@ -13,7 +13,7 @@ function SalesNav(props) {
 				React Storefront
 			</Link>
 
-			<Link to='' className='SalesMainNav__about'>
+			<Link to='/about' className='SalesMainNav__about'>
 				About
 			</Link>
 
@@ -21,11 +21,11 @@ function SalesNav(props) {
 				Products
 			</Link>
 
-			<Link to='' className='SalesMainNav__featured'>
+			<Link to='/featured' className='SalesMainNav__featured'>
 				Featured Product
 			</Link>
 
-			<Link to='' className='SalesMainNav__contact'>
+			<Link to='/contact' className='SalesMainNav__contact'>
 				Contact
 			</Link>
 
