@@ -1,9 +1,17 @@
 import './About.css';
+import about1 from '../../brent-gorwin-vhQUnmnOLys-unsplash.jpg';
+import about2 from '../../anne-nygard-G4IB-r6nsJI-unsplash.jpg';
+import about3 from '../../khara-woods-KR84RpMCb0w-unsplash.jpg';
 import React from 'react';
 
 function About(props) {
 	return (
 		<div className='AboutMain'>
+			<div className='AboutImageContainer'>
+				<img className='AboutImage1' src={about1} alt='Barista making Coffee' />
+				<img className='AboutImage2' src={about2} alt='Artist making Pottery' />
+				<img className='AboutImage3' src={about3} alt='Assorted Paintbrushes' />
+			</div>
 			<div className='AboutText'>
 				<p>
 					Many of the products featured on this site were created by artists

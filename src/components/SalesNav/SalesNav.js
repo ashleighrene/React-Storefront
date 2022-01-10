@@ -1,12 +1,19 @@
 import './SalesNav.css';
 import { Link } from 'react-router-dom';
 import React from 'react';
-import search from './search_black_24dp.svg';
+// import search from './search_black_24dp.svg';
 import cart from './shopping_cart_black_24dp.svg';
 
 //Components
+// import Hamburger from '../Hamburger/Hamburger';
 
 function SalesNav(props) {
+	// const [hamburgerOpen, setHamburgerOpen] = useState(false);
+
+	// const toggleHamburger = () => {
+	// 	setHamburgerOpen(!hamburgerOpen);
+	// };
+
 	return (
 		<nav className='SalesNavMain'>
 			<Link to='/home' className='SalesNavMainHome'>
@@ -29,12 +36,15 @@ function SalesNav(props) {
 				Contact
 			</Link>
 
-			<li>
+			{/* <li>
 				<img className='SearchIcon' src={search} alt='Search Icon' />
-			</li>
-			<li>
+			</li> */}
+			<Link to='/cart'>
 				<img className='CartIcon' src={cart} alt='Shopping Cart Icon' />
-			</li>
+			</Link>
+			{/* <div className='hamburger' onClick={toggleHamburger}>
+				<Hamburger isOpen={hamburgerOpen} />
+			</div> */}
 		</nav>
 	);
 }

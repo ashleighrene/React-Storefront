@@ -14,8 +14,8 @@ function Home(props) {
 				<div className='introTextContainer'>
 					<h2>
 						React Storefront is a one-stop shop designed to provide access to
-						handmade goods of the highest quality. Feel free to Contact us with
-						any Questions. We're happy to Help
+						handmade goods of the highest quality. Feel free to contact us with
+						any questions, we're here to help.
 					</h2>
 				</div>
 			</main>

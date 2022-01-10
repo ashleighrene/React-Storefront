@@ -29,3 +29,67 @@
 .reviewCarouselContainer {
 	height: 10%;
 }
+
+/* Med Styling */
+
+@media (max-width: 600px) {
+	.homeMain {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		width: 100%;
+
+		background: black;
+	}
+
+	.homeMain img {
+		height: 100%;
+		width: 100%;
+		opacity: 0.6;
+	}
+
+	.introTextContainer h2 {
+		font-family: 'Libre Baskerville', serif;
+		position: absolute;
+		text-align: center;
+		top: 38%;
+		left: 50%;
+		font-size: 30px;
+		color: rgb(240, 239, 239);
+		text-shadow: 1px 1px black;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+}
+
+/* Small (mobile) styling */
+
+@media (max-width: 400px) {
+	.homeMain {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		width: 100%;
+
+		background: black;
+	}
+
+	.homeMain img {
+		height: 50%;
+		width: 100%;
+		opacity: 0.6;
+	}
+
+	.introTextContainer h2 {
+		font-family: 'Libre Baskerville', serif;
+		position: absolute;
+		text-align: center;
+		/* top: 50%; */
+		left: 50%;
+		font-size: 30px;
+		color: black;
+		text-shadow: 1px 1px white;
+		transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+}

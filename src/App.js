@@ -1,6 +1,6 @@
 import './App.css';
 import { Routes, Route, Link } from 'react-router-dom';
-import AliceCarousel from 'react-alice-carousel';
+// import AliceCarousel from 'react-alice-carousel';
 import React from 'react';
 
 //Components
@@ -12,6 +12,7 @@ import Contact from './components/Contact/Contact';
 import SalesNav from './components/SalesNav/SalesNav';
 import ProductDetails from './components/ProductsPage/ProductDetails';
 import Products from './components/ProductsPage/Products';
+import Cart from './components/Cart/Cart';
 
 function App() {
 	return (
@@ -28,6 +29,7 @@ function App() {
 
 					<Route path='/contact' element={<Contact />}></Route>
 					<Route path='/home' element={<Home />}></Route>
+					<Route path='/cart' element={<Cart />}></Route>
 				</Routes>
 			</main>
 			<Footer />
