@@ -1,0 +1,35 @@
+.slider {
+	border-radius: 15px;
+	position: relative;
+	height: 10vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.comment {
+	width: 900px;
+	font-size: 28px;
+	text-align: center;
+}
+
+.right-arrow {
+	position: absolute;
+	top: 50%;
+	right: 30%;
+	font-size: 2rem;
+	color: rgba(56, 59, 56, 0.856);
+	z-index: 10;
+	cursor: pointer;
+	user-select: none;
+}
+
+.left-arrow {
+	position: absolute;
+	top: 50%;
+	left: 30%;
+	font-size: 2rem;
+	color: rgba(56, 59, 56, 0.856);
+	z-index: 10;
+	cursor: pointer;
+	user-select: none;
+}

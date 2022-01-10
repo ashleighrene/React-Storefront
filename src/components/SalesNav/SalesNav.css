@@ -1,0 +1,65 @@
+.SalesNavMain {
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+	padding: 10px;
+	margin: 20px;
+	height: 5%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.SalesNavMainHome {
+	font-family: 'Libre Baskerville', serif;
+	font-weight: 700;
+	font-size: 26px;
+}
+
+.SalesMainNav__about,
+.SalesMainNav__products,
+.SalesMainNav__featured,
+.SalesMainNav__contact {
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+.SearchIcon {
+	width: 2rem;
+}
+
+.CartIcon {
+	width: 2rem;
+}
+
+/* Med Styling */
+
+@media (max-width: 700px) {
+	.SalesNavMain {
+		position: fixed;
+		left: -100%;
+		top: 5rem;
+		flex-direction: column;
+		background-color: #fff;
+		width: 100%;
+		border-radius: 10px;
+		text-align: center;
+		transition: 0.3s;
+		box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+	}
+
+	.SalesNavMain.active {
+		left: 0;
+	}
+}
+
+/* Small (mobile) styling */
+
+@media (max-width: 400px) {
+}

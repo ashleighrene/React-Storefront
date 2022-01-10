@@ -1,0 +1,26 @@
+.AboutMain {
+	border-top: 1px solid gray;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	margin: 20px;
+	padding: 10px;
+	height: 100vh;
+}
+
+.AboutImageContainer {
+	display: flex;
+	position: absolute;
+	top: 40%;
+	left: 2%;
+	flex-direction: row;
+	height: 65%;
+	padding: 10px;
+}
+
+.AboutText {
+	padding-top: 20px;
+	font-size: 22px;
+	line-height: 1.5;
+	width: 60%;
+}

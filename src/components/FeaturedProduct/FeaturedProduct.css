@@ -1,0 +1,23 @@
+.FeaturedMain {
+	border-top: 1px solid gray;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.FeaturedMain img {
+	opacity: 0.6;
+	height: 100%;
+	width: 100%;
+}
+.FeaturedText {
+	font-size: 36px;
+	line-height: 1.5;
+	text-align: center;
+	width: 100vw;
+	top: 45%;
+	overflow: hidden;
+	position: absolute;
+	text-shadow: 1px 1px rgb(148, 144, 144);
+}
