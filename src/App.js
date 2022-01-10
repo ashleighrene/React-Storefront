@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 // import AliceCarousel from 'react-alice-carousel';
 import React from 'react';
 
@@ -30,6 +30,7 @@ function App() {
 					<Route path='/contact' element={<Contact />}></Route>
 					<Route path='/home' element={<Home />}></Route>
 					<Route path='/cart' element={<Cart />}></Route>
+					<Route path='/' element={<Navigate replace to='/home' />}></Route>
 				</Routes>
 			</main>
 			<Footer />
