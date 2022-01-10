@@ -1,3 +1,6 @@
+![Screen Shot 2022-01-10 at 2 49 41 PM](https://user-images.githubusercontent.com/81535167/148851439-a408a673-8c9a-4b70-930c-a2a98c160a33.png)
+
+
 ## Project Description
 
 I will be building a website (using HTML, CSS and Javascript - React) for an online marketplace.
