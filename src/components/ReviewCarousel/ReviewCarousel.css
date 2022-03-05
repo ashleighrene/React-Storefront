@@ -7,16 +7,19 @@
 	justify-content: center;
 }
 .comment {
-	width: 900px;
-	font-size: 28px;
+	display: flex;
+	width: 400px;
+	flex-wrap: wrap;
+	font-size: 18px;
 	text-align: center;
+	margin: 0 10px;
 }
 
 .right-arrow {
 	position: absolute;
-	top: 50%;
-	right: 30%;
-	font-size: 2rem;
+	top: 35%;
+	right: -5%;
+	font-size: 1.1rem;
 	color: rgba(56, 59, 56, 0.856);
 	z-index: 10;
 	cursor: pointer;
@@ -25,11 +28,83 @@
 
 .left-arrow {
 	position: absolute;
-	top: 50%;
-	left: 30%;
-	font-size: 2rem;
+	top: 35%;
+	left: -3%;
+	font-size: 1.1rem;
 	color: rgba(56, 59, 56, 0.856);
 	z-index: 10;
 	cursor: pointer;
 	user-select: none;
+}
+
+/* Med Styling */
+@media (min-width: 700px) {
+	.comment {
+		display: flex;
+		width: 400px;
+		flex-wrap: wrap;
+		font-size: 22px;
+		text-align: center;
+		margin: 10px;
+	}
+	.right-arrow {
+		position: absolute;
+		top: 35%;
+		right: 10%;
+		font-size: 1.2rem;
+	}
+	.left-arrow {
+		position: absolute;
+		top: 35%;
+		left: 10%;
+		font-size: 1.2rem;
+	}
+}
+
+/* Large Styling */
+@media (min-width: 1200px) {
+	.comment {
+		display: flex;
+		width: 400px;
+		flex-wrap: wrap;
+		font-size: 22px;
+		text-align: center;
+		margin-top: 170px;
+	}
+	.right-arrow {
+		position: absolute;
+		margin-top: 80px;
+		right: 30%;
+		font-size: 1.5rem;
+	}
+	.left-arrow {
+		position: absolute;
+		margin-top: 80px;
+		left: 30%;
+		font-size: 1.5rem;
+	}
+}
+
+/* X-Large Styling */
+@media (min-width: 1700px) {
+	.comment {
+		display: flex;
+		width: 400px;
+		flex-wrap: wrap;
+		font-size: 24px;
+		text-align: center;
+		margin-top: 180px;
+	}
+	.right-arrow {
+		position: absolute;
+		margin-top: 80px;
+		right: 30%;
+		font-size: 2rem;
+	}
+	.left-arrow {
+		position: absolute;
+		margin-top: 80px;
+		left: 30%;
+		font-size: 2rem;
+	}
 }

@@ -1,6 +1,6 @@
 import './Home.css';
 import React from 'react';
-import hero from '../../aurelia-dubois-6J0MUsmS4fQ-unsplash.jpg';
+import hero from '../../assets/home.jpg';
 import ReviewCarousel from '../ReviewCarousel/ReviewCarousel';
 import { Reviews } from '../ReviewCarousel/Reviews';
 
@@ -12,11 +12,11 @@ function Home(props) {
 			<main className='homeMain'>
 				<img src={hero} alt='Bath and Soap' />
 				<div className='introTextContainer'>
-					<h2>
+					<p>
 						React Storefront is a one-stop shop designed to provide access to
 						handmade goods of the highest quality. Feel free to contact us with
 						any questions, we're here to help.
-					</h2>
+					</p>
 				</div>
 			</main>
 			<div className='reviewCarouselContainer'>

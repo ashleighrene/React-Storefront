@@ -1,51 +1,25 @@
 import './SalesNav.css';
-import { Link } from 'react-router-dom';
 import React from 'react';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 // import search from './search_black_24dp.svg';
-import cart from './shopping_cart_black_24dp.svg';
+// import cart from '../../assets/shopping_cart_black_24dp.svg'
 
-//Components
-// import Hamburger from '../Hamburger/Hamburger';
-
-function SalesNav(props) {
-	// const [hamburgerOpen, setHamburgerOpen] = useState(false);
-
-	// const toggleHamburger = () => {
-	// 	setHamburgerOpen(!hamburgerOpen);
-	// };
-
+function SalesNav({ navOpen, setNavOpen }) {
 	return (
-		<nav className='SalesNavMain'>
-			<Link to='/home' className='SalesNavMainHome'>
-				React Storefront
-			</Link>
-
-			<Link to='/about' className='SalesMainNav__about'>
-				About
-			</Link>
-
-			<Link to='/products' className='SalesMainNav__products'>
-				Products
-			</Link>
-
-			<Link to='/featured' className='SalesMainNav__featured'>
-				Featured Product
-			</Link>
-
-			<Link to='/contact' className='SalesMainNav__contact'>
-				Contact
-			</Link>
-
-			{/* <li>
-				<img className='SearchIcon' src={search} alt='Search Icon' />
-			</li> */}
-			<Link to='/cart'>
-				<img className='CartIcon' src={cart} alt='Shopping Cart Icon' />
-			</Link>
-			{/* <div className='hamburger' onClick={toggleHamburger}>
-				<Hamburger isOpen={hamburgerOpen} />
-			</div> */}
-		</nav>
+		<Navbar className='NavMain' expand='lg'>
+			<Container className='NavContainer'>
+				<Navbar.Brand href='/home'>React Storefront</Navbar.Brand>
+				<Navbar.Toggle aria-controls='basic-navbar-nav' />
+				<Navbar.Collapse id='basic-navbar-nav'>
+					<Nav className='me-auto'>
+						<Nav.Link href='/about'>About</Nav.Link>
+						<Nav.Link href='/products'>Products</Nav.Link>
+						<Nav.Link href='/featured'>Featured Product</Nav.Link>
+						<Nav.Link href='/contact'>Contact</Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
+			</Container>
+		</Navbar>
 	);
 }
 

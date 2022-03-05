@@ -1,6 +1,6 @@
 import './Contact.css';
 import React from 'react';
-import contact from '../../charles-deluvio-AT5vuPoi8vc-unsplash.jpg';
+import contact from '../../assets/handshake.jpg';
 
 function Contact(props) {
 	return (

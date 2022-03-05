@@ -1,6 +1,6 @@
 import './FeaturedProduct.css';
 import React from 'react';
-import coffee from '../../battlecreek-coffee-roasters-rsnzc-8dVs0-unsplash.jpg';
+import coffee from '../../assets/coffee.jpg';
 
 function FeaturedProduct(props) {
 	return (

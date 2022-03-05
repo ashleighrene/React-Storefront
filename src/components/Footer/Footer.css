@@ -9,12 +9,41 @@
 	align-items: center;
 	height: 10%;
 	padding: 40px;
+	background-color: white;
 }
 
 .newsletter {
-	font-size: 22px;
+	font-size: 20px;
 	padding-left: 12px;
 }
 .copyright {
-	font-size: 16px;
+	font-size: 14px;
+}
+
+/* Large Styling */
+@media (min-width: 1200px) {
+	.mainFooter {
+		width: 100%;
+		position: relative;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 10%;
+		padding: 80px;
+	}
+
+	.newsletter {
+		font-size: 24px;
+		padding-left: 12px;
+	}
+	.copyright {
+		font-size: 17px;
+	}
+}
+
+/* X-Large Styling */
+@media (min-width: 1700px) {
 }
